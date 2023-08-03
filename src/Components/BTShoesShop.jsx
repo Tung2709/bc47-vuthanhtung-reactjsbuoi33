@@ -25,12 +25,10 @@ const BTShoesShop = () => {
 			const i=currentState.findIndex(e=>e.id===id)
 			if(i!==-1){
 				currentState[i].soLuong+=1
-				console.log(currentState)
 				return [...currentState]
 			}else{
 				const item=arrayProduct.find(e=>e.id===id)
 				currentState.push({...item,soLuong:1})
-				console.log(currentState)
 				return [...currentState]
 			}
 		})

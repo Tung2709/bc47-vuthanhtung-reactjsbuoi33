@@ -1,7 +1,6 @@
 import React from 'react'
 
 const ProductItem = ({ product,handleDetail,handleCart }) => {
-	// console.log(product)
 	return (
 	
 			<div className="card">
